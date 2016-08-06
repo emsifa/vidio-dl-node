@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 
+var VERSION = '0.0.4';
 var program = require('commander');
 var Promise = require('bluebird');
 var ProgressBar = require('progress');
@@ -132,7 +133,7 @@ process.on('SIGINT', function() {
   console.log("\nCaught interrupt signal.");
 });
 
-program.version('0.0.1')
+program.version(VERSION)
 .arguments('<url> [output]')
 .action(function(url, output) {
   // pastikan url adalah url vidio.com
