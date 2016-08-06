@@ -1,6 +1,6 @@
 {
   "name": "vidio-dl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple command line vidio.com downloader",
   "main": "index.js",
   "scripts": {
