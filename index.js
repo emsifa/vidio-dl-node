@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-var VERSION = '0.0.4';
+var VERSION = '0.0.6';
 var program = require('commander');
 var Promise = require('bluebird');
 var ProgressBar = require('progress');
