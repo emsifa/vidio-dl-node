@@ -12,7 +12,7 @@ var chalk = require('chalk');
 var concat = require('concat-files');
 var video_resolutions = {};
 var temp_files = [];
-var TEMP_DIR = __dirname+'/temp'+(new Date).getTime();
+var TEMP_DIR = path.resolve('temp'+(new Date).getTime());
 var output_dir;
 
 function grab(url, message) {
