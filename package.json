@@ -1,6 +1,6 @@
 {
   "name": "vidio-dl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple command line vidio.com downloader",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,9 @@
     "video",
     "downloader"
   ],
+  "bin": {
+    "vidio-dl": "index.js"
+  },
   "author": "Muhammad Syifa",
   "license": "MIT",
   "dependencies": {
