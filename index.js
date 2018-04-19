@@ -164,7 +164,7 @@ program.version(VERSION)
     }
 
     return new Promise(function(resolve, reject) {
-      var url_data_clip = content.match(/https:\/\/www\.vidio\.com\/videos\/\d+\/playlist\.m3u8/);
+      var url_data_clip = content.match(/https:\/\/www\.vidio\.com\/videos\/\d+\/vjs_playlist\.m3u8/);
       if (!url_data_clip.length) {
         reject(new Error("Cannot find data clip url at that page"));
       } else {
